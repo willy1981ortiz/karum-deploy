@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /*background: #2f393f !important;*/
+    background: #fff !important;
+    padding: 16px;
+}
+
+.container {
+    /*border: 2px solid #e83408;*/
+    border: 4px solid #ffdcB3;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: #fff;
+    /*background: #858688;*/
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.header {
+    color: #ff6700;
+    text-align: center;
+}
+
+.karum-logo2 {
+    width: auto;
+    float: right;
+}
+
+.splash-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: center !important;
+}
+
+.document-table-paragraph {
+    color: #000;
+    font-size: 1.25rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+input[type = "checkbox"] {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.custom-checkbox {
+    font-size: 1.5rem;
+    background-color: transparent !important;
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+}
+
+/* For Checkbox Change Tick Color */
+.custom-checkbox:checked ~ .checkmark {
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 17px;
+    width: 5px;
+    height: 10px;
+    border: 1px solid #000;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.document-table-heading {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #ff6700;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .karum-logo2 {
+        float: none;
+    }
+
+    .splash-title {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+}

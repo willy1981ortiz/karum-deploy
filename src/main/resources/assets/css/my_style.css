@@ -1,0 +1,59 @@
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login_btn {
+    background-color: #fc636b;
+    border: none;
+    color: white;
+    padding: 14px 48px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.login_btn:hover {
+    background-color: #fd616a;
+    color: #fff;
+}
+
+.login_title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 6rem
+}
+
+.login_page_logo {
+    text-align: center;
+    margin: 2rem auto 0rem auto;
+    /*  background-color: white;
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;*/
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+}
+
+.login_input {
+    padding: 10px 0 10px 15px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #ddd;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    outline: none;
+}

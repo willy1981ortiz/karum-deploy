@@ -1,0 +1,823 @@
+/******************************* css to make upload document mobile responsive *********************************/
+.camera_icon {
+    width: 70px;
+    height: 50px;
+}
+
+.upload_icon {
+    width: 65px;
+    height: 50px;
+}
+
+.upload_text {
+    color: #000;
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: 400;
+}
+
+.load_center_text {
+    color: #000 !important;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.instrucciones_heading {
+    margin-bottom: 45px;
+}
+
+.prepare_img_text {
+    display: none;
+}
+
+.Captura_upload_btn {
+    display: none;
+}
+
+.uploadBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.uploadMobileBlock {
+    display: none;
+}
+
+.frenteTextBlock {
+    display: none;
+}
+
+.identification_p_tage {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 24px
+}
+
+.uploadBtnDesktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: center;
+}
+
+.uploadBtnMobile {
+    display: none;
+}
+
+.backBtnDesktop {
+    visibility: visible;
+}
+
+/*************On Camera Screen**********/
+.cameraContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.camera-preview {
+    width: 446px !important;
+}
+
+.retryMobileBtn {
+    width: 50%;
+    margin-right: 15px;
+    border: solid #0d6efd !important;
+    background-color: white !important;
+    color: #0d6efd;
+    visibility: hidden;
+}
+
+.mobileCameraBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.captureMobileBtn {
+    width: 50%;
+    margin-left: 15px;
+    border: solid;
+}
+
+.backMobileBtn {
+    display: block;
+}
+
+.addressMobileImgPreview {
+    max-width: 47%;
+}
+
+.passportNoInput {
+    border: none;
+    border-bottom: 1px solid #000 !important;
+    background: transparent;
+    width: 170px;
+    font-size: 1.5rem
+}
+
+.error-cross {
+    position: absolute;
+    top: 20%;
+}
+
+.error-cross img {
+    width: 300px;
+    height: 300px;
+}
+
+.document-table-paragraph {
+    color: #000;
+    font-size: 1.25rem;
+}
+
+/******************** Personal Information Page Mobile CSS ********************/
+.domicilioInputContainer {
+    padding: 0;
+}
+
+.supplementaryForwardBtn {
+    text-align: right;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+.domicileCheckLabel {
+    color: #35C74A;
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.formRowContainer {
+    padding: 15px;
+}
+
+.returningUploadContainer span {
+    display: inline-block;
+    text-align: center;
+}
+
+.infoForwardBtn {
+    cursor: pointer;
+    position: absolute;
+    bottom: 16px;
+    right: 10px;
+    text-align: right;
+}
+
+.required-text-bottom{
+    color:red;
+    padding-top:30px;
+}
+
+/*************  Declaration Page CSS Media Query**********/
+.declaration-form-container {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 24px;
+}
+
+.declarationAntecedents {
+    text-align: center;
+    margin: 20px 0;
+    color: #000;
+    font-weight: bold;
+}
+
+
+/*************  Pre Clarification Page CSS**********/
+
+.header {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.header .message {
+    width: 60%;
+    margin: auto;
+    color: #ff6700;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.header .desktop {
+    display: block;
+}
+
+.header .mobile {
+    display: none;
+}
+
+.splash-subtitle-left .desktop {
+    display: block;
+}
+
+.splash-subtitle-left .mobile {
+    display: none;
+}
+
+.clarificationFormWrapper {
+    width: 97%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+
+.radioStatement {
+    font-size: 1.125rem;
+    color: #000;
+}
+
+.radioLabel {
+    color: black;
+    margin-left: 16px;
+}
+
+.forwardBtn {
+    padding-top: 8px;
+    text-align: right;
+    padding-right: 0;
+}
+
+.main-container-custom {
+    padding-bottom: 50px;
+}
+
+.checkBoxRowContainer {
+    margin: 25px auto auto;
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+.modal-body .dialog-message {
+    color: #28DC35;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.125rem;
+}
+
+/*.custom-info-form {
+    background: transparent;
+    border: none;
+}
+
+.info-form-select option {
+    background: rgba(0, 0, 0, 0.3);
+}
+    border-bottom: 1px solid red;
+    margin-top: 12px;
+}*/
+
+.info-form-select option {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.sup-heading {
+    padding:0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .infoForwardBtn {
+        bottom: -12px;
+    }
+
+    .required-text-bottom{
+        text-align:right;
+        padding-right:70px;
+    }
+
+    .upload-btn {
+        background-color: #C1BBBB;
+        border-radius: 12px;
+    }
+
+    .upload-btn > img {
+        width: 45px !important;
+        height: 40px !important;
+    }
+
+    .upload-btn-text {
+        margin-left: 14px !important;
+        font-size: 0.9rem;
+    }
+
+    .upload-chevron {
+        display: none;
+    }
+
+    .container {
+        border: none;
+        margin-top: 0;
+        padding: 0 !important;
+        background: transparent;
+        width: 100% !important;
+        max-width: 600px !important;
+    }
+
+    .camera_icon {
+        width: 55px;
+        height: 40px;
+    }
+
+    .upload_icon {
+        width: 55px;
+        height: 40px;
+    }
+
+    .barcode_img {
+        display: none;
+    }
+
+    .barcode_i {
+        display: none;
+    }
+
+    .upload_text {
+        /*color: white;*/
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+
+    .container-main-heading {
+        display: none;
+    }
+
+    .container-sub-heading {
+        text-decoration: underline;
+    }
+
+    .load_center_text {
+        /*color: white !important;*/
+        font-size: 1.4rem !important;
+        font-weight: normal !important;
+        width: 100% !important;
+    }
+
+    .splash-title-left {
+        display: none;
+    }
+
+    .karum-logo > img {
+        margin-bottom: 30px;
+    }
+
+    .back_btn {
+        display: none !important;
+    }
+
+    /*********    /upload/document/instructions    *****/
+    .inner-container {
+        /*color: white !important;*/
+        border: none;
+        background: transparent !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .inner-container > p {
+        font-size: 1.2rem !important;
+    }
+
+    .last_instruction_text {
+        display: none !important;
+    }
+
+    .identificacion_heading {
+        text-decoration: none !important;
+    }
+
+    .instrucciones_heading {
+        text-decoration: none !important;
+        margin-bottom: 15px;
+        margin-top: 50px;
+    }
+
+    .prepare_img_text {
+        display: block;
+        font-size: 1.2em;
+        /*color: white;*/
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Captura_upload_btn {
+        display: flex;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .forward_btn_block {
+        display: none;
+    }
+
+    .identification_p_tage {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    /*********    /upload/document    *****/
+    .uploadBlock {
+        display: none;
+    }
+
+    .frenteTextBlock {
+       // display: flex;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .drag-area {
+        height: 250px;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .uploadMobileBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .uploadBtnDesktop {
+        display: none;
+    }
+
+    .uploadBtnMobile {
+        display: flex;
+        justify-content: center;
+        /*align-items: center;*/
+        flex-direction: column;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    /*.backBtnDesktop {
+        visibility: hidden;
+    }*/
+
+    /*********On Camera Screen*******/
+    .cameraContainer {
+        flex-direction: column !important;
+        margin: 0 !important;
+    }
+
+    .camera-preview {
+        width: 380px !important;
+    }
+
+    .retryMobileBtn {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-right: 0 !important;
+    }
+
+    .captureMobileBtn {
+        width: 80%;
+        margin-left: 0 !important;
+    }
+
+    .mobileCameraBtnContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .backMobileBtn {
+        display: none;
+    }
+
+    .forwardMobileBtn {
+        display: none;
+    }
+
+    .cameraBtnLink {
+        display: none;
+    }
+
+    .imgMobilePreview {
+        width: 380px;
+    }
+
+    .addressMobileImgPreview {
+        width: 80%;
+    }
+
+    .progress-area {
+        width: auto;
+    }
+
+    .passportNoInput {
+        /*border-color: #ff6700 !important;
+        color: #fff;*/
+    }
+
+    .forwardBackBtnRow {
+        position: relative;
+    }
+
+    #forward-btn {
+        width: auto;
+        position: absolute;
+        bottom: -60px;
+        right: 10px;
+    }
+
+    #back-btn {
+        width: auto;
+        position: absolute;
+        bottom: -60px;
+        left: 10px;
+    }
+
+    .error-cross {
+        top: 15%;
+    }
+
+    .error-cross img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .custom-checkbox {
+        /*border: 1px solid white !important;*/
+    }
+
+    .document-table-paragraph {
+        /*color: white;*/
+    }
+
+    .heading-top-margin {
+        margin-top: 16px !important;
+    }
+
+    /******************** Personal Information Page Mobile CSS ********************/
+    .form-custom {
+        /*color: white;*/
+        margin-top: 16px;
+    }
+
+    .custom-info-form {
+        color: #d5ab07;
+        width: 100% !important;
+    }
+
+    .form-row-custom {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .genderContainer {
+        margin-top: 16px !important;
+        margin-bottom: 16px;
+    }
+
+    .curpContainer {
+        margin-left: 0;
+    }
+
+    .formRowContainer {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .infoLabel {
+        /*color: white;*/
+    }
+
+    .yellowText {
+        color: #d5ab07 !important;
+    }
+
+    .simpleLabel {
+        /*color: white;*/
+        margin-top: 16px;
+    }
+
+    .whiteLabel {
+        color: white;
+        margin-top: 16px;
+    }
+
+    .yellowInput {
+        color: #d5ab07;
+    }
+
+    .genderInputSelect {
+        width: 25% !important;
+    }
+
+    .domicilioInputContainer {
+        padding: 0;
+        /*color: white;*/
+    }
+
+    .supplementaryForwardBtn {
+        margin-top: 32px !important;
+    }
+
+    .domicileCheckLabel {
+        font-size: 0.8rem;
+    }
+
+    .info-form-select {
+        width: 100%;
+    }
+
+    .domicilioContainer {
+        margin-bottom: 18px;
+    }
+
+    .infoHorizontalLine {
+        display: none;
+    }
+
+    .returningUploadContainer {
+        color: white;
+        margin-top: 24px;
+    }
+
+    .returningUploadContainer span {
+        margin: 0;
+    }
+
+    input[type = "checkbox"] {
+        /*border: 1.5px solid #fff;*/
+    }
+
+    .input-3-auto {
+        width: 40px !important;
+    }
+
+    .input-5-auto {
+        width: 60px !important;
+    }
+
+    .input-10-auto {
+        width: 110px !important;
+    }
+
+    .input-15-auto {
+        width: 130px !important;
+    }
+
+    .input-20-auto {
+        width: 160px !important;
+    }
+
+    .input-24-auto {
+        width: 210px !important;
+    }
+
+    .input-40-auto {
+        width: 260px !important;
+    }
+
+    /*************  Declaration Page CSS Media Query**********/
+    .declaration-header {
+        margin: 0 auto;
+    }
+
+    .declaration-form-container {
+        padding: 0;
+    }
+
+    /*************  Pre Clarification Page CSS Media Query**********/
+    .clarificationBody {
+        background: #b1b5b6 !important;
+    }
+
+    .header {
+        text-align: center !important;
+        margin-left: 0;
+    }
+
+    .header img {
+        /*display: none;*/
+    }
+
+    .header .message {
+        width: 100%;
+        font-size: 1.1rem;
+        color: #fa7136;
+        margin: 24px 0;
+    }
+
+    .header .desktop {
+        display: none;
+    }
+
+    .header .mobile {
+        display: block;
+    }
+
+    .splash-subtitle-left {
+        color: #ff6700;
+        font-size: 1.3rem;
+    }
+
+    .splash-subtitle-left .desktop {
+        display: none;
+    }
+
+    .splash-subtitle-left .mobile {
+        display: block;
+    }
+
+    .acceptRadioContainer {
+        margin-right: 8px;
+    }
+
+    .notAcceptRadioContainer {
+        margin-left: 8px;
+    }
+
+    .modal-body {
+        padding: 8px !important;
+    }
+
+    .modal-body .dialog-title {
+        margin-top: 24px;
+    }
+
+    .modal-body .dialog-message {
+        color: black;
+        font-size: 1rem;
+    }
+
+    .calif-radio {
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .clarificationFormWrapper {
+        width: 100%;
+        padding: 0;
+        margin-top: 32px;
+    }
+
+    .radioStatement {
+        color: white;
+    }
+
+    .acceptRadioBtn {
+        margin-bottom: 16px;
+    }
+
+    .forwardBtn {
+        text-align: left;
+    }
+
+    .main-container-custom {
+        padding: 0 !important;
+    }
+
+    #uploadContainer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #authModal {
+        padding-top: 40px;
+    }
+
+    .margin-16-top {
+        margin-top: 16px !important;
+    }
+
+    .margin-16-left {
+        margin-left: 16px !important;
+    }
+
+    .margin-12-left {
+        margin-left: 12px !important;
+    }
+
+    #curpInputId {
+        font-size: 0.9rem;
+    }
+
+    .sup-heading {
+        padding:10px !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .radioLabel {
+        margin-left: 6px;
+    }
+}

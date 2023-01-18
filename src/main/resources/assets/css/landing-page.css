@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /*background: #2f393f !important;*/
+    background: #fff !important;
+}
+
+.preloader {
+    background: white url("../media/splashPage02.jpg") no-repeat center center;
+    background-size: 85%;
+    background-color: #B1B5B6;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* ////////////////////    Start of Landing Page   CSS       ////////////////  */
+.landing-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid #ff6700;
+}
+
+.landing-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #ff6700;
+    margin-top: 8px;
+}
+
+.landingRightContainer {
+    margin-top: 24px;
+}
+
+.landingFirstH5 {
+    color: #ff6700
+}
+
+.landingFirstP {
+    font-size: 1rem;
+    color: #182035;
+    margin: 30px;
+}
+
+.landing-left h1 {
+    color: #ff6700;
+    text-decoration: underline;
+}
+
+.landing-left button {
+    margin: 25px auto 15px auto;
+    text-align: center;
+    background-color: #808182;
+    /*color: #ffb700;*/
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #1e1e1e;
+    padding: 8px 32px;
+    text-decoration: none;
+    transition: 500ms;
+    border: none;
+}
+
+.landing-left button:hover {
+    cursor: pointer;
+    background-color: #666565;
+    color: #fff;
+    text-decoration: none;
+}
+
+.landing-left-p {
+    color: #ffb700;
+    margin: 40px;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 1.5rem
+}
+
+.landing-right-p {
+    color: #182035;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.landing-stepper-p {
+    color: #182035;
+    font-size: 1rem;
+    margin-top: 16px;
+}
+
+.landingRightLogo {
+    margin-top: 40px
+}
+
+.number-style {
+    display: inline-block;
+}
+
+.landingParent {
+    margin-top: 42px !important;
+}
+
+.number-style span {
+    width: 28px;
+    height: 28px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 9px;
+    color:#fff;
+}
+
+.number-style div {
+    border-left: 2px dashed #fff;
+    height: 25px;
+    margin: 8px 0 3px 13px;
+}
+
+.stepperContainer {
+    display: flex;
+}
+
+.howDosWorkTitle {
+    text-align: center;
+    color: #182035;
+    font-size: 2rem;
+    margin: 24px;
+}
+
+
+/*****************************  Media Queries For Landing Page 1280px Width*************************/
+@media screen and (max-width: 1280px) {
+    .landing-left-p {
+        font-size: 1rem;
+        margin: 30px;
+    }
+
+    .landing-right-p {
+        font-size: 0.875rem;
+    }
+
+    .landingFirstH5 {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    .landingFirstP {
+        font-size: 0.8rem;
+        margin-left: 16px;
+    }
+
+    .landing-right-p {
+        font-size: 1rem;
+        margin: 4px;
+    }
+
+    .landing-left h4 {
+        margin-top: 8px
+    }
+
+    .landingRightContainer {
+        margin-top: 0px;
+    }
+
+    .landingRightLogo {
+        margin-top: 10px;
+    }
+
+    .landingParent {
+        margin-top: 22px !important;
+    }
+
+    .landing-left button {
+        margin: 16px auto 0 auto;
+    }
+}
+
+/*****************************  Media Queries For Landing Page 600px Width  *************************/
+@media only screen and (max-width: 600px) {
+
+    .preloader {
+        width: 100%;
+        height: 100vh;
+        background: #fff url("../media/approva_mobile.png") no-repeat center center;
+        background-size:100%;
+        position: fixed;
+        top:0;
+        left:0;
+    }
+
+    .container-fluid {
+        padding: 0 !important;
+    }
+
+    .landingParent {
+        margin: 32px 0 0 0 !important;
+        padding: 0 12px !important;
+    }
+
+    .landingFirstP {
+        margin: 0;
+    }
+
+    .landing-right {
+        align-items: start;
+        border: none;
+        padding: 0 !important;
+    }
+
+    .landing-left {
+        align-items: start;
+        text-align: start;
+        border: none;
+        padding: 0 !important;
+    }
+
+    .landing-left-p {
+        margin: 32px auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .landing-stepper-p {
+        margin-left: 8px;
+    }
+
+    .howDosWorkTitle {
+        margin: 20px auto !important;
+    }
+
+    .landingFirstH5 {
+        margin-top: 16px;
+    }
+
+    .identificationH5 {
+        margin-top: 16px;
+    }
+
+    .landingRightLogo {
+        margin: 0;
+    }
+
+    .rightLogoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .stepperContainer {
+        margin-top: 16px;
+    }
+
+    .PagarTitle {
+        margin: auto;
+    }
+
+    .karumLogo {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+}

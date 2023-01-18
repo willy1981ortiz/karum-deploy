@@ -1,0 +1,60 @@
+.container {
+    width: 60%;
+    margin: auto;
+    min-width: 450px;
+    padding: 15px 0;
+}
+
+.iniciarBtn {
+    width: 25%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #1E1E1E;
+}
+
+.iniciarBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.welcomeContainer {
+    width:50% !important;
+    margin:auto;
+    padding:40px 0px;
+}
+
+@media only screen and (max-width: 990px) {
+
+    .iniciarBtn {
+        width: 40% !important;
+        padding: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        width: 90% !important;
+        min-width: 0;
+        background: transparent;
+    }
+
+    .iniciarBtn {
+        width: 60% !important;
+        padding: 8px;
+    }
+
+    .splash-title {
+        width:100%;
+        font-size:1.9rem !important;
+    }
+
+    .splash-subtitle {
+        width:100%;
+        font-size:1.5rem !important;
+    }
+
+}

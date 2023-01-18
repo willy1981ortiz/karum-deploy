@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /*background: #2f393f !important;*/
+    background: #fff !important;
+    padding: 16px;
+}
+
+.container {
+    border: 4px solid #ffdcB3;
+    border-radius: 20px;
+    margin-top: 20px;
+    /*background: #858688;*/
+    background: #fff;
+}
+
+.container_row {
+    width: 94%;
+    margin: auto;
+    padding-bottom: 24px;
+}
+
+input[type = "radio"] {
+    background-color: transparent;
+    border: 1px solid #000
+}
+
+input[type='radio']:checked:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    background-color: #0d6efd;
+    border: 2px solid white;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.header {
+    color: #ff6700;
+    text-align: center;
+}
+
+.info-header {
+    color: #ff6700;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.centro-container {
+    width: 40% !important;
+    margin: auto;
+}
+
+.karum-logo2 {
+    width: auto;
+    float: right;
+}
+
+.calif-radio {
+    padding-left: 50px !important;
+}
+
+.authInput {
+    background-color: #545353;
+    border: 1px solid #e83408;
+    border-radius: 8px;
+    padding: 8px;
+    color: #ffb700;
+}
+
+.authInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffb700;
+    opacity: 1; /* Firefox */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.auth-modal {
+    padding-top: 40px;
+}
+
+.success-modal {
+    padding-top: 150px;
+}
+
+.error {
+    color: rgba(216, 0, 12, 0.81);
+}
+
+input[type = "checkbox"] {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1.5px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    margin-right: 8px;
+}
+
+.checkbox_label {
+    font-size: 1rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.splash_iniciar_btn {
+    margin-top: 32px;
+}
+
+.splash-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: center !important;
+}
+
+.splash-title-left {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+.splash-subtitle {
+    font-size: 2.0rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.splash-subtitle-left {
+    font-size: 2.5rem;
+}
+
+.container h3 {
+    margin-bottom: 5%;
+    text-align: center;
+    color: #ffb700;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.preloader {
+    background: #2f393f url("../media/splash-logo.png") no-repeat center center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.userInput {
+    display: flex;
+    justify-content: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.userInput input {
+    margin: 8px;
+    height: 35px;
+    width: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #000;
+    outline: none;
+
+}
+
+.login-form {
+    width: 100%;
+    height: auto;
+    border: 1px solid #1E1E1E;
+    background: transparent;
+    padding: 6px;
+    color: white;
+    font-size: 0.85rem;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+.inner-container {
+    width: 65%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background-color: #999696;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+.inner-container h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.document-table-heading {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #ffb700;
+}
+
+.custom-checkbox {
+    font-size: 1.5rem;
+    background-color: transparent !important;
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+}
+
+.centro-container {
+    width: 40% !important;
+    margin: auto;
+}
+
+.upload-btn {
+    background-color: #C1BBBB;
+    border-radius: 12px;
+    width: 55%;
+    margin: auto;
+    padding: 10px 6px;
+    margin-bottom: 20px;
+}
+
+.upload-btn-text {
+    margin-left: 45px;
+    font-size: 1.25rem;
+    padding-top: 6px;
+}
+
+.upload-btn-link {
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+.upload-btn-link:hover {
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1390px) {
+    .auth-modal {
+        padding-top: 10px;
+    }
+
+    .success-modal {
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+    .upload-btn-text {
+        margin-left: 28px;
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .upload-btn-text {
+        margin-left: 25px;
+        font-size: 1.05rem;
+    }
+
+    .upload-btn {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .centro-container {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .centro-container {
+        width: 65% !important;
+    }
+
+    .upload-btn {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .upload-btn {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .centro-container {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .centro-container {
+        width: 90% !important;
+    }
+
+    .upload-btn {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .upload-btn-text {
+        margin-left: 35px;
+        font-size: 1.25rem;
+    }
+
+    .success-modal {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .full-modal-custom {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .calif-radio {
+        padding-left: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .karum-logo {
+        width: auto;
+        float: none;
+    }
+
+    .karum-logo2 {
+        width: 100% !important;
+        float: none;
+        text-align: center;
+        display: block !important;
+    }
+
+    .splash-title-left {
+        text-align: center !important;
+    }
+
+    .splash-subtitle-left {
+        text-align: center !important;
+    }
+
+    .header {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .upload-btn {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .upload-btn {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .upload-btn {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .upload-btn-text {
+        margin-left: 35px;
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container_row {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 24px;
+    }
+}
+
+.authInput {
+    /*background-color: #545353;*/
+    background-color: #fff;
+    border: 3px solid #ffdcB3;
+    /*border: 1px solid #e83408;*/
+    border-radius: 8px;
+    padding: 8px;
+    color: #ff6700;
+    box-shadow:0px 0px 2px #c4c4c4;
+}
+
+.authInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ff6700;
+    opacity: 1; /* Firefox */
+}
+
+.error {
+    color: rgba(216, 0, 12, 0.81);
+}
+
+.progress-area {
+    height: 280px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-image: url("/assets/media/file_upload_progress.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
